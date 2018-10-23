@@ -3,9 +3,30 @@
    padding: 0;
 }
 
-header,
+body {
+   margin: 10px 20px 30px 40px;
+
+   /* Equivalent to…
+   margin-top: 10px;
+   margin-right: 20px;
+   margin-bottom: 30px;
+   margin-left: 40px; */
+}
+
+header {
+   margin: 10px 20px 30px;
+   /* Equivalent to…
+   margin: 10px 20px 30px 20px */
+}
+
 main {
+   margin: 10px 20px;
+   /* Equivalent to…
+   margin: 10px 20px 10px 20px */
+}
+
+footer {
    margin: 10px;
-   border: 10px solid pink;
-   padding: 10px;
+   /* Equivalent to…
+   margin: 10px 10px 10px 10px */
 }
