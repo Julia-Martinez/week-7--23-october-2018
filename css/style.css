@@ -1,2 +1,10 @@
 body {
+   /* font-style: italic;
+   font-variant: small-caps;
+   font-weight: bold;
+   font-size: 20px;
+   line-height: 16px;
+   font-family: 'Merriweather', serif; */
+
+   font: italic small-caps bold 20px / 16px 'Merriweather', serif;
 }
