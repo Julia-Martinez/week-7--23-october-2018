@@ -1,18 +1,13 @@
-a:link {
-   color: red;
-   text-decoration: none;
-   border-bottom: 3px solid transparent;
-   transition: 350ms;
+* {
+   margin: 0;
+   padding: 0;
 }
 
-a:visited {
-   color: blue;
-}
-
-a:hover {
-   border-bottom-color: blue;
-}
-
-a:active {
-   text-decoration: overline;
+p {
+   width: 0;
+   height: 0;
+   border-top: 44px solid black;
+   border-right: 44px solid red;
+   border-bottom: 44px solid green;
+   border-left: 44px solid blue;
 }
